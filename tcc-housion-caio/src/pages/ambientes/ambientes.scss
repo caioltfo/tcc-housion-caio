@@ -1,0 +1,54 @@
+page-ambientes {
+    img.icon{
+        width: 50px;
+
+    }
+    ion-title.title
+    {
+        align-content: center;
+    }
+    div.ambiente_name
+    {
+        height: 40px;
+        width: 100%;
+        
+        border-bottom-color: gray;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+
+    }
+    p.ambiente_name
+    {
+        padding-left: 45%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        
+    }
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+          width: 100%;
+
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 36%;
+          font-size: 2.0em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+        .card-subtitle {
+          font-size: 1.0em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: rgb(6, 209, 23);
+        }
+      
+      }
+}
